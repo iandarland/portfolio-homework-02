@@ -1,0 +1,52 @@
+*{
+    font-family: 'Roboto';
+}
+
+body {
+    background-color: brown;
+    margin: 0rem 2rem 0rem 2rem;
+}
+
+container {
+    display:flex;
+    justify-content: space-between;
+}
+
+header {
+    display:flex;
+    justify-content: space-between;
+    background-color: yellow;
+}
+
+nav{
+    display:flex;
+    align-self: center;
+    padding: 1rem;
+}
+
+nav a{
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:hover{
+    background-color: white;
+}
+
+.card-head{
+    width: 30%;
+    border-right: blue solid 3px;
+    border-collapse:collapse;
+}
+
+.card-content{
+    align-self: center;
+    padding:1rem 0rem 1rem 0rem;
+
+}
+
+footer{
+    text-align: center;
+    width: 100%;
+    background-color: yellow;
+}

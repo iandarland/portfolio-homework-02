@@ -1,18 +1,24 @@
 <!DOCTYPE html>
 <head>
 <meta charset="UTF8">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 <link rel='stylesheet' href='./style.css'>
 <title>Ian Darland Portfolio</title>
 </head>
 <body>
     <header>
-        <h1>Ian Darland Web Development</h1>
-        <a href='#about me'>About Me</a>
-        <a href='#portfloio-links'>Portfolio Links</a>
-        <a href='#contact-me'>Contact Me</a>
+        <div class='headline'>
+            <h1>Ian Darland Web Development</h1>
+        </div>
+        <nav>
+            <a href='#about-me'>About Me</a>
+            <a href='#portfloio-links'>Portfolio Links</a>
+            <a href='#contact-me'>Contact Me</a>
+        </nav>
     </header>
     <main>
-        <container>
+        <container id='about-me'>
             <div class='card-head'>
                 <h2>About Me</h2>
             </div>
@@ -20,7 +26,7 @@
                 This is my about me
             </div>
         </container>
-        <container>
+        <container id='portfolio-links'>
             <div class='card-head'>
                 <h2>Portfolio Links</h2>
             </div>
@@ -28,7 +34,7 @@
                 These are my portfolio links
             </div>
         </container>
-        <container>
+        <container id='contact-me'>
             <div class='card-head'>
                 <h2>Contact Me</h2>
             </div>
