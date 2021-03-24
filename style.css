@@ -2,20 +2,97 @@
     font-family: 'Roboto';
 }
 
+:root{
+    --head-color: #77A6F7;
+    --forrest-green: #00887A;
+    --white: #FFFFFF;
+    --tan: #FFCCBC;
+}
+
+.about{
+    width: 500px;
+}
+
 body {
-    background-color: brown;
+    background-color: #FFFFFF;
     margin: 0rem 2rem 0rem 2rem;
 }
 
-container {
+.card-content{
+    display:flex;
+    flex-wrap:wrap;
+    width: 70%;
+    margin-left:0
+}
+
+.contact{
+    justify-content: space-around;
+    align-self: center;
+    text-decoration: none;
+    color: var(--forrest-green);
+    font-weight: bolder;
+    padding: 1rem;
+    border-radius: 20px
+}
+
+.contact:hover{
+    background-color: var(--tan)
+}
+
+.container{
     display:flex;
     justify-content: space-between;
+    margin: 2rem 0rem 2rem 0rem
+    
+}
+.container p{
+    display:flex;
+    text-align: left;
+    width: 70%;
+}
+
+
+.container h2{
+    border-right: 2px solid #00887A;
+    width: 20%;
+    text-align: right;
+    padding-right: 1rem;
+    align-items: center;
+    justify-self: flex-start;
+    font-size: 32px;
+}
+
+footer{
+    color:#FFFFFF;
+    font-family: "Roboto";
+    padding: 1rem
 }
 
 header {
     display:flex;
+    font-family: "Roboto";
     justify-content: space-between;
-    background-color: yellow;
+    background-color: var(--head-color);
+    color: #FFFFFF
+
+}
+
+header h1{
+    align-self: center;
+    align-items: center;
+    background-color: #FFCCBC;
+    color: var(--forrest-green);
+    height: 44px;
+    padding-top: 10px;
+    padding-right: 15px;
+    border-radius: 0px 20px 20px 0px;
+    font-size: 35px;
+
+}
+
+.hero img{
+    max-width: 100%;
+    margin-bottom: 2rem;
 }
 
 nav{
@@ -27,26 +104,52 @@ nav{
 nav a{
     text-decoration: none;
     padding: 1rem;
+    border-radius: 20px;
+    color:#FFFFFF
 }
 
 nav a:hover{
     background-color: white;
+    color: var(--head-color)
 }
 
-.card-head{
-    width: 30%;
-    border-right: blue solid 3px;
-    border-collapse:collapse;
+
+.project-1 {
+    width: 90%;
+    border-radius: 20px;
 }
 
-.card-content{
-    align-self: center;
-    padding:1rem 0rem 1rem 0rem;
+.project-small {
+    width: 100%;
+    border-radius: 20px;
+}
 
+span {
+    display: flex;
 }
 
 footer{
     text-align: center;
     width: 100%;
-    background-color: yellow;
+    background-color: var(--head-color);
+}
+
+.link-small{
+    width: 45%;
+    max-width: 301.5px;
+}
+
+@media screen and (max-width: 780px){
+    h2{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width : 320px){
+    body{
+        display: flex;
+        flex-direction: column;
+        margin: 0rem 0rem 0rem 0rem;
+    }
+
 }

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <head>
 <meta charset="UTF8">
+<link rel= 'reset stylesheet' href="./reset.css">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 <link rel='stylesheet' href='./style.css'>
@@ -8,42 +9,46 @@
 </head>
 <body>
     <header>
-        <div class='headline'>
-            <h1>Ian Darland Web Development</h1>
-        </div>
+        <h1>Ian Darland</h1>
         <nav>
             <a href='#about-me'>About Me</a>
-            <a href='#portfloio-links'>Portfolio Links</a>
+            <a href='#portfolio-links'>Portfolio Links</a>
             <a href='#contact-me'>Contact Me</a>
         </nav>
     </header>
+    <div class="hero"><img src="/assets/codeblauw (1).jpeg" alt="code"> </div>
     <main>
-        <container id='about-me'>
-            <div class='card-head'>
+        <div class= 'container' id='about-me'>
                 <h2>About Me</h2>
-            </div>
+                <p>
+                    <span class="about">
+                        I am a former leader in the hospitality industry and aspiring web developer. I am currently enrolled in the University of Texas department of extended education attending a coding bootcamp for fullstack development. 
+                        <br><br>
+                        My current goal is to master the skills necessary to succeed in the world of web development and secure a position at a reputable employer. 
+                    </span>
+                </p>
+        </div>
+        <div class= 'container' id='portfolio-links'>
+            <h2>Portfolio Links</h2>
             <div class='card-content'>
-                This is my about me
+                <a href='https://iandarland.github.io/Refactoring-Company-hw-01/'> <img class="project-1" src= "/assets/Coding-Project.jpeg" alt='coding projects'> </a>
+                <br>
+                <a class="link-small" href="https://github.com/the-Coding-Boot-Camp-at-UT/UTA-VIRT-FSF-FT-03-2021-U-LOL"><img class="project-small" src= "assets/Coding-Project.jpeg" alt="coding projects"> </a>
+                <a class="link-small" href="https://github.com/the-Coding-Boot-Camp-at-UT/UTA-VIRT-FSF-FT-03-2021-U-LOL"><img class="project-small" src= "assets/Coding-Project.jpeg" alt="coding projects"> </a>
+                <a class="link-small" href="https://github.com/the-Coding-Boot-Camp-at-UT/UTA-VIRT-FSF-FT-03-2021-U-LOL"><img class="project-small" src= "assets/Coding-Project.jpeg" alt="coding projects"> </a>
+                <a class="link-small" href="https://github.com/the-Coding-Boot-Camp-at-UT/UTA-VIRT-FSF-FT-03-2021-U-LOL"><img class="project-small" src= "assets/Coding-Project.jpeg" alt="coding projects"> </a>
             </div>
-        </container>
-        <container id='portfolio-links'>
-            <div class='card-head'>
-                <h2>Portfolio Links</h2>
-            </div>
-            <div class='card-content'>
-                These are my portfolio links
-            </div>
-        </container>
-        <container id='contact-me'>
-            <div class='card-head'>
+        </div>
+        <div class= 'container' id='contact-me'>
                 <h2>Contact Me</h2>
-            </div>
-            <div class='card-content'>
-                This is my Contact Me Information
-            </div>
-        </container>
+                <a class="contact" href= "tel:555-555-5555">555-555-5555</a>
+                <a class="contact" href= "https://github.com/iandarland?tab=repositories">Git Hub</a>
+                <a class="contact" href= "https://twitter.com/iandarland">Twitter</a>
+                <a class="contact" href= "https://www.linkedin.com/in/ian-darland-450369a0/">Linked In</a>
+                
+        </div>
     </main>
     <footer>
-        Footer Information
+        Made By Ian Darland in Austin,TX
     </footer>
 </body>
