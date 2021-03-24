@@ -13,4 +13,4 @@ https://github.com/iandarland/portfolio-homework-02
 
 ## Screenshot of Webpage
 
-![Screenshot of Webpage](https://github.com/iandarland/portfolio-homework-02/blob/20aaec8eda02c58b26202a7c7a45fcf50c4c9bb3/assets/Ian%20Darland%20Port.png)
+![Screenshot of Webpage](https://github.com/iandarland/portfolio-homework-02/blob/aab9b443bf01b0a1501ca8bed9593594f6de1e99/assets/Ian%20Darland%20Port%201.png)
