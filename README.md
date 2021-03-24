@@ -5,10 +5,11 @@ In this project I created a rough portfolio using the skills that we have learne
 
 ## Link to Deployed Webpage
 
-``` https://iandarland.github.io/portfolio-homework-02/ ```
+https://iandarland.github.io/portfolio-homework-02/
 
-## Link to Repository For Webpage
-``` https://github.com/iandarland/portfolio-homework-02 ```
+## Link to Repository For Webpage 
+
+https://github.com/iandarland/portfolio-homework-02 
 
 ## Screenshot of Webpage
 

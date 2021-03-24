@@ -71,7 +71,16 @@ body {
     font-size: 32px;
 }
 
-figcaption{
+.fig-head{
+    position:sticky;
+    bottom: 11rem;
+    left: 38rem;
+    width: 8rem;
+    height: 8rem;
+    box-shadow: 10px 5px 5px #FFCCBC;
+}
+
+.fig-project{
     position:relative;
     bottom: 4rem;
     background-color: var(--tan);
@@ -92,13 +101,16 @@ footer{
     background-color: var(--head-color);
 }
 
+.hero{
+    border-bottom: -10rem;
+}
+
 header {
     display:flex;
     font-family: "Roboto";
     justify-content: space-between;
     background-color: var(--head-color);
     color: #FFFFFF
-
 }
 
 header h1{
