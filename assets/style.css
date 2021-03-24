@@ -22,7 +22,7 @@ body {
     display:flex;
     flex-wrap:wrap;
     width: 70%;
-    margin-left:0
+    max-width: 603px;
 }
 
 .card-content a{
@@ -168,7 +168,6 @@ span {
 
 @media screen and (max-width : 320px){
     body{
-        display: flex;
         flex-direction: column;
         margin: 0rem 0rem 0rem 0rem;
     }
