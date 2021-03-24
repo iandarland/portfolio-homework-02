@@ -9,3 +9,7 @@ In this project I created a rough portfolio using the skills that we have learne
 
 ## Link to Repository For Webpage
 ``` https://github.com/iandarland/portfolio-homework-02 ```
+
+## Screenshot of Webpage
+
+![Screenshot of Webpage](https://github.com/iandarland/portfolio-homework-02/blob/20aaec8eda02c58b26202a7c7a45fcf50c4c9bb3/assets/Ian%20Darland%20Port.png)
